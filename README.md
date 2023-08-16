@@ -1,5 +1,5 @@
 # Plant-Disease-Classification-using-MobileNetV2
-This project aims to classify plant diseases using MobileNetV2 model. With an ever-growing global population, ensuring a steady supply of crops is crucial. However, diseases can drastically reduce yields. Early and accurate disease detection can lead to better management and healthier crops
+This project aims to classify plant diseases using MobileNetV2 model. With an ever-growing global population, ensuring a steady supply of crops is crucial. However, diseases can drastically reduce yields. Early and accurate disease detection can lead to better management and healthier crops. A gradio interface is also provided for interfacing with the model.
 
 # Dataset
 The data is sourced from the PlantVillage dataset( https://app.activeloop.ai/activeloop/plantvillage-with-augmentation). It consists of 55000+ images of various plant leaves, each labeled with the specific disease it has or labeled as healthy.the dataset can be online accessed by executing the following command:
