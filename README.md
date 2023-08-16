@@ -2,7 +2,9 @@
 This project aims to classify plant diseases using MobileNetV2 model. With an ever-growing global population, ensuring a steady supply of crops is crucial. However, diseases can drastically reduce yields. Early and accurate disease detection can lead to better management and healthier crops
 
 # Dataset
-The data is sourced from the PlantVillage dataset( https://app.activeloop.ai/activeloop/plantvillage-with-augmentation). It consists of 55000+ images of various plant leaves, each labeled with the specific disease it has or labeled as healthy.
+The data is sourced from the PlantVillage dataset( https://app.activeloop.ai/activeloop/plantvillage-with-augmentation). It consists of 55000+ images of various plant leaves, each labeled with the specific disease it has or labeled as healthy.the dataset can be online accessed by executing the following command:
+import hub
+ds = hub.load('hub://activeloop/plantvillage-with-augmentation')
 
 # Number of classes: 39
 Image resolution: Originally varying resolutions, but resized to 64x64 for the model.
